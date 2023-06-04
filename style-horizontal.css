@@ -1,0 +1,312 @@
+@charset "UTF-8";
+
+* {
+   margin: 0px;
+   padding: 0px;
+}
+
+/*Paleta de Cores
+#132D46 
+#38c09c 
+#f7f7f7
+#8d8d8d 
+#14739a
+#1e2021
+14739a
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300&family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monomaniac+One&family=Righteous&display=swap');
+
+
+/*Cabeçário*/
+header {
+   background-color: #132D46;
+   padding: 5vh;
+   text-align: center;
+}
+
+#titulo {
+   color: #38c09c;
+   text-decoration: none;
+   font-size: 2.4em;
+   margin-bottom: 1vh;
+   border: 1px solid #38c09c;
+   font-family: 'Righteous', cursive;
+}
+
+nav {
+   display: inline;
+   border-radius: 10px;
+   padding: 15px;
+   border: 1px solid #38c09c;
+}
+
+.menu {
+   margin: 27px;
+   color: #38c09c;
+   font-size: larger;
+   text-decoration: none;
+   }
+
+/*Style da Página Principal*/
+body {
+   font-family: 'Montserrat', sans-serif;
+   background-color: #1e2021;
+}
+
+main {
+   margin: 6vw;
+}
+
+#caixa1 {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+   grid-template-rows: 8vh 8vh 8vh 8vh 8vh 8vh 3vh 3vh 8vh 8vh 8vh 8vh 8vh;
+   grid-gap: 5px;
+}
+
+#noticia1 {
+   background-image: url(imagens/google2.webp);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   grid-column-start: 1;
+   grid-column-end: 12;
+   grid-row-start: 1;
+   grid-row-end: 14;
+   border-radius: 7px;
+   text-align: center;
+   overflow: hidden;
+}
+
+#noticia2 {
+   background-image: url(imagens/re2.webp);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   grid-column-start: 13;
+   grid-column-end: 29;
+   grid-row-start: 1;
+   grid-row-end: 7;
+   border-radius: 7px;
+   text-align: center;
+   overflow: hidden;
+}
+
+#noticia3 {
+   background-image: url(imagens/cll1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   grid-column-start: 13;
+   grid-column-end: 29;
+   grid-row-start: 8;
+   grid-row-end: 14;
+   border-radius: 7px;
+   text-align: center;
+   overflow: hidden;
+}
+
+#noticia4{
+   background-image: url(imagens/cs2.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   width: 33.3%;
+   height: 100%;
+   text-align: center;
+   overflow: hidden;
+}
+
+#noticia5{
+   background-image: url(imagens/cell-potter.webp);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   width: 33.3%;
+   height: 100%;
+   text-align: center;
+   overflow: hidden;
+}
+
+#noticia6{
+   background-image: url(imagens/img-ia1.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   width: 33.3%;
+   height: 100%;
+   text-align: center;
+   overflow: hidden;
+}
+
+
+.texto-noticia {
+   color: #FFFFFF;
+   padding: 7px;
+   font-weight: bolder;
+   font-size: 1.8em;
+   background-color: #33333327;
+}
+
+a {
+   text-decoration: none;
+   text-align: center;
+}
+
+#noticia1 a{
+   position: relative;
+   top: 87%;
+}
+
+#noticia2 a{
+   position: relative;
+   top: 75%;
+}
+
+#noticia3 a{
+   position: relative;
+   top: 72%;
+}
+
+#noticia4 a{
+   position: relative;
+   top: 57%;
+}
+
+#noticia5 a{
+   position: relative;
+   top: 57%;
+}
+
+#noticia6 a{
+   position: relative;
+   top: 57%;
+}
+
+
+
+.texto-noticia:hover {
+   background-color: #1a1e29c2;
+}
+
+#caixa2 {
+   display: flex;
+   justify-content: space-evenly;
+   border: 2px solid black;
+   height: 55vh;
+   margin-top: 15vh;
+}
+
+.imagens {
+   margin-top: 20px;
+   margin-left: 18vw;
+   align-items: center;
+   width: 50.6vw;
+   height: 60vh;
+   border: 1px solid black;
+}
+
+/*Style página do jogo*/
+
+#h1 {
+   text-align: center;
+   margin-top: 10vh;
+   font-size: 7ch;
+   color: #14739a;
+}
+
+#main-jogo {
+   text-align: justify;
+}
+
+p {
+   color: #f7f7f7;
+}
+
+#linha1 {
+   margin-top: 10vh;
+   font-size: 20px;
+   margin-left: 18vw;
+   margin-right: 18vw;
+   color: #8d8d8d;
+}
+
+#img-resident {
+   margin-top: 20px;
+   margin-left: 12.5vw;
+   align-items: center;
+   width: 62.8vw;
+   height: 56vh;
+   border: 1px solid black;
+}
+
+#texto-jogo {
+   margin-top: 9vh;
+}
+
+.texto {
+   margin-top: 4vh;
+   margin-left: 18vw;
+   margin-right: 18vw;
+   font-size: 20px;
+   text-align: justify;
+}
+
+.topico {
+   color: #38c09c;
+   margin-top: 5vh;
+   margin-bottom: 5vh;
+   margin-left: 18vw;
+   text-align: left;
+   font-size: 3ch;
+
+}
+
+.imglista {
+   width: 50.6vw;
+   height: 45vh;
+   margin-bottom: 5vh;
+   margin-left: 18vw;
+   border: 1px solid black;
+}
+
+li {
+   color: #f7f7f7;
+   margin-top: 3vh;
+   margin-left: 18vw;
+   margin-right: 18vw;
+   text-align: left;
+   font-size: 19px;
+}
+
+footer {
+   padding: 4vw;
+   background-color: #132D46;
+}
+
+/*Style página de celular*/
+
+#titulo2 {
+   font-size: 5.5ch;
+   text-align: center;
+   margin-top: 10vh;
+   margin-bottom: 8vh;
+   color: #14739a;
+}
+
+.lista-cll {
+   margin-left: 19px;
+}
+
+.bold {
+   color: #494949;
+}
+
+/*Style página do Google*/
+
+#titulo3 {
+   font-size: 5.5ch;
+   text-align: center;
+   margin-top: 10vh;
+   margin-bottom: 8vh;
+   color: #14739a;
+}
+
+
+
